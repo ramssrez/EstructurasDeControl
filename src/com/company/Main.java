@@ -99,35 +99,67 @@ public class Main {
         // Pedir un número al usuario y dependiendo la respuesta
         // mostrar un dia de la semana, ejemplo: 1) Domingo, 2) Lunes ... 7)Sabado
         // Si elige un numero fuera de ese rango mostar un mensaje de error;
-        System.out.println("Ingresa un número de la semana: \n1)Lunes \n2)Martes \n3)Miercoles \n4)Jueves \n5)Viernes \n6)Sabado \n7)Domingo");
-        int valor = scanner.nextInt();
-        switch (valor){
-            case 1:
-                System.out.println("El dia de hoy es Lunes");
-                break;
-            case 2:
-                System.out.println("El dia de hoy es Martes");
-                break;
-            case 3:
-                System.out.println("El dia de hoy es Miercoles");
-                break;
-            case 4:
-                System.out.println("El dia de hoy es Jueves");
-                break;
-            case 5:
-                System.out.println("El dia de hoy es Viernes");
-                break;
-            case 6:
-                System.out.println("El dia de hoy es Sabado");
-                break;
-            case 7:
-                System.out.println("El dia de hoy es Domingo");
-                break;
-            default:
-                System.out.println("Este número no es parte de los dias de la semana");
-                break;
-        }
+       // System.out.println("Ingresa un número de la semana: \n1)Lunes \n2)Martes \n3)Miercoles \n4)Jueves \n5)Viernes \n6)Sabado \n7)Domingo");
+//        int valor = scanner.nextInt();
+//        switch (valor){
+//            case 1:
+//                System.out.println("El dia de hoy es Lunes");
+//                break;
+//            case 2:
+//                System.out.println("El dia de hoy es Martes");
+//                break;
+//            case 3:
+//                System.out.println("El dia de hoy es Miercoles");
+//                break;
+//            case 4:
+//                System.out.println("El dia de hoy es Jueves");
+//                break;
+//            case 5:
+//                System.out.println("El dia de hoy es Viernes");
+//                break;
+//            case 6:
+//                System.out.println("El dia de hoy es Sabado");
+//                break;
+//            case 7:
+//                System.out.println("El dia de hoy es Domingo");
+//                break;
+//            default:
+//                System.out.println("Este número no es parte de los dias de la semana");
+//                break;
+//        }
 
-
+        //        int numero,fibo1,fibo2,i;
+//
+//        do{
+//            System.out.print("Introduce numero mayor que 1: ");
+//            numero = scanner.nextInt();
+//        }while(numero<=1);
+//
+//        System.out.println("Los " + numero + " primeros términos de la serie de Fibonacci son:");
+//
+//        fibo1=0;
+//        fibo2=1;
+//
+//        System.out.print(fibo1 + " ");
+//        for(i=2;i<=numero;i++){
+//            System.out.print(fibo2 + " ");
+//            fibo2 = fibo1 + fibo2;
+//            fibo1 = fibo2 - fibo1;
+//        }
+//        System.out.println();
+//        System.out.println("Adivina el número secreto. Ingresa un número");
+//        int numero = scanner.nextInt();
+//        int numeroSecreto =35;
+//        while (numero != numeroSecreto){
+//            System.out.println("Adivin el número secreto. Ingresa un número");
+//            numero = scanner.nextInt();
+//        }
+//        //scanner.close();
+//        System.out.println("Felicidades adivinaste el número secreto");
+//
+//        do {
+//            System.out.println("Adivin el número secreto. Ingresa un número");
+//            numero = scanner.nextInt();
+//        }while (numero != numeroSecreto);
     }
 }
